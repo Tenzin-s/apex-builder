@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Apex builder</title>
+</head>
+
+<body>
+    <header id="header">
+        <img src="https://scontent.fsyd3-2.fna.fbcdn.net/v/t39.30808-6/305965778_530134888916652_4442802161384802926_n.jpg?cstp=mx1280x1280&ctp=s1280x1280&_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=spiYDksH_XEQ7kNvgGUjymK&_nc_ht=scontent.fsyd3-2.fna&oh=00_AYA04TNwBbQw2F9KfFTXgBA-oT8VLNQLlxYG0ViNLMIZ8w&oe=669E75FChttps://scontent.fsyd3-2.fna.fbcdn.net/v/t39.30808-6/305965778_530134888916652_4442802161384802926_n.jpg?cstp=mx1280x1280&ctp=s1280x1280&_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=spiYDksH_XEQ7kNvgGUjymK&_nc_ht=scontent.fsyd3-2.fna&oh=00_AYA04TNwBbQw2F9KfFTXgBA-oT8VLNQLlxYG0ViNLMIZ8w&oe=669E75FC" id="header-img">
+        <nav id="nav-bar">
+            <ul>
+                <li><a class = "nav-link" href="#About_Us">About us</a></li>
+                <li><a class="nav-link" href="#our-services">Our Services</a></li>
+                <li><a class="nav-link" href="#our-projects">Our Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Apex Builders</h1>
+                <p>Building Dreams, One Brick at a Time</p>
+                <iframe id="video" src="https://www.youtube.com/embed/iY3RIZnTDCc?si=CEjybxfUUgMK0m5C"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+                <button>Connect with Us</button>
+            </div>
+        </section>
+        <section id="About_Us">
+            <h1>About us</h1>
+            <div class="about-us-subsections">
+                <h2>Our Mission</h2>
+                <p>At Apex Builders, our mission is to transform dreams into reality by delivering top-quality
+                    construction services that exceed client expectations. We are dedicated to building lasting
+                    relationships based on trust, integrity, and exceptional craftsmanship.</p>
+            </div>
+            <div class="about-us-subsections">
+                <h2>Who We Are</h2>
+                <p>Apex Builders is a premier construction company with a reputation for excellence. With years of
+                    experience in the industry, we have honed our skills and developed a deep understanding of what it
+                    takes to create outstanding structures. Our team is composed of skilled professionals who are
+                    passionate about construction and committed to delivering the highest standards of quality.</p>
+            </div>
+        </section>
+        <section id="our-services">
+            <h1>Our Services</h1>
+            <div class="our-services-card">
+                <div class="os-card">
+                    <h2>Residential Construction</h2>
+                    <p>Building homes that combine comfort, style, and functionality. Whether it's a new build or a
+                        renovation, we bring your dream home to life.</p>
+                </div>
+                <div class="os-card">
+                    <h2>Commercial Construction</h2>
+                    <p>Creating dynamic commercial spaces that boost productivity and enhance your business image. From
+                        offices to retail spaces, we handle it all.</p>
+                </div>
+                <div class="os-card">
+                    <h2>Custom Builds</h2>
+                    <p>We specialize in custom construction solutions tailored to your specific requirements, delivering
+                        projects that are truly one-of-a-kind.</p>
+                </div>
+            </div>
+        </section>
+        <section id="our-projects">
+            <h1>Our Projects</h1>
+            <div class="our-projects">
+                <div class="projects">
+                    <h2> Horizon Heights</h2>
+                    <div class="project-image"><img
+                            src="https://www.fcharchitects.com/wp-content/uploads/2016/10/FCH_Skelhorne_Street_I3D_0603-1024x683.jpg">
+                    </div>
+                    <p>A showcase of our residential construction expertise. This project features modern design,
+                        high-quality materials, and impeccable craftsmanship.</p>
+                </div>
+                <div class="projects">
+                    <h2>Maplewood Offices</h2>
+                    <div class="project-image"><img class="project-img"
+                            src="https://i.pinimg.com/originals/81/c6/cc/81c6ccd1b5524bc9f78fdcfba74b2a15.jpg"></div>
+                    <p>A state-of-the-art commercial space designed to meet the specific needs of our client.
+                        Innovative,
+                        efficient, and aesthetically pleasing.</p>
+                </div>
+            </div>
+        </section>
+        <section id="get-a-quote">
+            <h1> Get a <span>free</span> Quote</h1>
+            <div class="form-section">
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <label>Name</label for="name"><input type="text" placeholder="Write your name">
+                    <label>Email</label for="email"><input type="email" placeholder="Write your email" id="email" name="email">
+                    <label for="project-type">Project Type:</label>
+                    <select id="project-type" name="project_type" required>
+                        <option value="residential">Residential</option>
+                        <option value="commercial">Commercial</option>
+                        <option value="custom">Custom Build</option>
+                        <option value="renovation">Renovation</option>
+                    </select>
+                    <label for="details">Project Details:</label>
+                    <textarea id="details" name="details" rows="5" required></textarea>
+
+                    <label> <input type="submit" id="submit" class="submit-button"></<input></label>
+
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    
+                <p>&copy; 2024 Apex Builders. All rights reserved.</p>
+            </div>
+            <div class="footer-social">
+                <a href="" target="_blank">Facebook</a>
+                <a href="" target="_blank">Instagram</a>
+                <a href="" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
